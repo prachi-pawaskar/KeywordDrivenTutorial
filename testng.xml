@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="pawaskar.prachi.KeywordDrivenTutorial" >
+    <test name="runClass">
+        <classes>
+            <class name="pawaskar.prachi.KeywordDrivenTutorial.TestRunnerClass"/>
+        </classes>
+    </test>
+</suite>

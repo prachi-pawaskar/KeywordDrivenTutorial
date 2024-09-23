@@ -1,0 +1,26 @@
+2024-53-23 15:53:01.342 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - There was an error in reading env var. Test env is set as default.
+2024-53-23 15:53:01.347 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - There was an error in reading browser var. Chrome browser is set as default.
+2024-53-23 15:53:02.711 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - Printing Testrunner master excel sheet
+2024-53-23 15:53:02.712 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - [inactive, Site1_TestCaseSheets.xlsx, TC_01]
+2024-53-23 15:53:02.715 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - [active, Site1_TestCaseSheets.xlsx, TC_02]
+2024-53-23 15:53:02.715 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - [inactive, Site2_TestCaseSheets.xlsx, TC_01]
+2024-53-23 15:53:13.413 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - Printing TestCase excel sheet
+2024-53-23 15:53:13.414 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - [1.0, active, Open the site, OpenUrl, NA, EnvFile, site1_url, NA, NA, NA]
+2024-53-23 15:53:13.414 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - [2.0, active, Add username, SendKeys, id, ElementFile, email_id, EnvFile, site1_username, NA]
+2024-53-23 15:53:13.415 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - [3.0, active, Add password, SendKeys, xpath, Raw, //*[@id="password"], Raw, pp@test.com, NA]
+2024-53-23 15:53:13.416 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - [4.0, active, Click on submit, Click, id, ElementFile, submit_id, NA, NA, NA]
+2024-53-23 15:53:13.416 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.Base - [5.0, active, Verify Add contact text is present, Verify_text, id, ElementFile, addContacts_id, TextFile, site1_addContacts_text, NA]
+2024-53-23 15:53:13.434 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.RunTestCaseSteps - Reading from runTestCaseSteps
+2024-53-23 15:53:13.531 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Navigating to URL: https://thinking-tester-contact-list.herokuapp.com/
+2024-53-23 15:53:35.809 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Waiting for element: email of type: id to load.
+2024-53-23 15:53:35.862 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Adding value pp@test.com to: email of type: id
+2024-53-23 15:53:35.974 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Waiting for element: //*[@id="password"] of type: xpath to load.
+2024-53-23 15:53:36.032 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Adding value pp@test.com to: //*[@id="password"] of type: xpath
+2024-53-23 15:53:36.104 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Waiting for element: submit of type: id to load.
+2024-53-23 15:53:36.142 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Clicking element: submit of type: id
+2024-53-23 15:53:38.167 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Waiting for element: add-contact of type: id to load.
+2024-53-23 15:53:38.198 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Equal text check from element: add-contact of type: id
+2024-53-23 15:53:38.226 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Actual text: Add a New Contact
+2024-53-23 15:53:38.227 [main] INFO  pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Expected text: Add a New Contactssss
+2024-53-23 15:53:38.228 [main] ERROR pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - pawaskar.prachi.KeywordDrivenTutorial.utils.CustomException: Verify_text condition failed.
+2024-53-23 15:53:38.228 [main] ERROR pawaskar.prachi.KeywordDrivenTutorial.utils.UiKeywords - Error in executing keyword: Verify_text
