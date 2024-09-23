@@ -1,6 +1,10 @@
 # Keyword Driven Automation Framework Tutorial
 
-The project demonstrates use of Keyword driven automation framework.
+The project demonstrates use of Keyword driven testing automation framework.
+This framework uses:
+1. Selenium for UI automation
+2. Extend reports for reporting
+3. Excel for keyword base test case
 
 ## About Keyword driven framework
 
@@ -72,7 +76,7 @@ These instructions will help you get started.
   - SheetName: Sheet name to be run from above excel test case file.
 
     
-### How to execute test
+### How to execute test?
 
 * Right click on any on the TestNG xml file and run as testng suite.
 * All the active test cases from /test/resources/TestRunner/MasterTestRunSheet.xlsx will be run.
@@ -83,5 +87,7 @@ These instructions will help you get started.
 Extent reports are generated under /reports folder.
 /images hold the screenshots from failed steps
 Report name: SparkReport_{Date-Time}.html
+
+IMP NOTE: Open the report from Windows-explorer in Chrome
 
 
